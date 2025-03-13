@@ -62,15 +62,6 @@ include 'Mahasiswa.php';
             echo "Nama: " . $data['name'] . "<br>";
             echo "Program Studi: " . $data['programStudi'] . "<br>";
             echo "</div>";
-            // $mahasiswa = new Mahasiswa();
-            // $mahasiswa->setNim($_POST['nim']);
-            // $mahasiswa->setNama($_POST['name']);
-            // $mahasiswa->setProgramStudi($_POST['progdi']);
-
-            // echo "<h3>Data Mahasiswa</h3>";
-            // echo "NIM: " . $mahasiswa->getNim() . "<br>";
-            // echo "Nama: " . $mahasiswa->getNama() . "<br>";
-            // echo "Program Studi: " . $mahasiswa->getProgramStudi() . "<br>";
         }
     ?>
 </body>
