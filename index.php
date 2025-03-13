@@ -53,6 +53,7 @@ include 'Mahasiswa.php';
     <?php
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mahasiswa = new Mahasiswa();
+            
             $mahasiswa->setMhs($_POST['nim'], $_POST['name'], $_POST['programStudi']);
 
             echo "<h3>Data Mahasiswa</h3>";
